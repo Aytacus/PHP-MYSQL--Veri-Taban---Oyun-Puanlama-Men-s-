@@ -15,5 +15,5 @@ http://gamepoints.epizy.com/?i=1<br>
 NOT: MOBİLE UYUMLU DEĞİLDİR!!!<br>
 Uygulama Videosu için: https://youtu.be/OvVU0BrLnZU <br>
 XAAMP'ta açabilmek için: https://youtu.be/5rBb6QTO_7Y <br>
-<img src=C:\Users\yucel\Desktop\Web tabanlı\z.png>
+<img url=C:\Users\yucel\Desktop\Web tabanlı\z.png>
 
