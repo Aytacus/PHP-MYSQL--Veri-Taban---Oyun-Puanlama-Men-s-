@@ -13,3 +13,7 @@ http://gamepoints.epizy.com/?i=1<br>
 10-) XAAMP'ın Apache'sinden Admin seçeneğine basın.<br>
 11-) Program karşınızda çalışıyor olacak.<br>
 NOT: MOBİLE UYUMLU DEĞİLDİR!!!<br>
+Uygulama Videosu için: https://youtu.be/OvVU0BrLnZU <br>
+XAAMP'ta açabilmek için: https://youtu.be/5rBb6QTO_7Y <br>
+<img src=C:\Users\yucel\Desktop\Web tabanlı\z.png>
+
