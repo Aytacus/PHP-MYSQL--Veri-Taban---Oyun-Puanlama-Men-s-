@@ -1,0 +1,51 @@
+RewriteEngine On
+
+# Kaba Taslak merkeze yada diger php dosyalari login,index gibi şeyler haric url ustunden kullanicinin ulasmasini engellemek... Giris Yaptiktan sonra her seye ulasılabilir yaptim.
+RewriteCond %{REQUEST_URI} ^/merkez\.php$
+RewriteCond %{HTTP_REFERER} !/oyunara\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunlistele\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyuneklemeform\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunsil\.php [NC]
+RewriteCond %{HTTP_REFERER} !/giris\.php [NC]
+RewriteCond %{HTTP_REFERER} !/OyunpuanGuncelleme\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunekleme\.php [NC]
+RewriteRule ^ - [R=404,L]
+
+
+RewriteCond %{REQUEST_URI} ^/(oyunara|oyunlistele|oyuneklemeform|oyunsil|OyunpuanGuncelleme|oyunekleme)\.php$
+RewriteCond %{HTTP_REFERER} !/giris\.php [NC]
+RewriteCond %{HTTP_REFERER} !/merkez\.php [NC]
+RewriteCond %{HTTP_REFERER} !/cikis\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunara\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunlistele\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyuneklemeform\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunsil\.php [NC]
+RewriteCond %{HTTP_REFERER} !/OyunpuanGuncelleme\.php [NC]
+RewriteCond %{HTTP_REFERER} !/oyunekleme\.php [NC]
+RewriteRule ^ - [R=404,L]
+
+
+RewriteCond %{REQUEST_URI} ^/oyunara\.php$
+RewriteCond %{HTTP_REFERER} /merkez\.php [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_URI} ^/oyunlistele\.php$
+RewriteCond %{HTTP_REFERER} /merkez\.php [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_URI} ^/oyuneklemeform\.php$
+RewriteCond %{HTTP_REFERER} /merkez\.php [NC]
+RewriteCond %{HTTP_REFERER} /oyunekleme\.php [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_URI} ^/oyunsil\.php$
+RewriteCond %{HTTP_REFERER} /merkez\.php [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_URI} ^/OyunpuanGuncelleme\.php$
+RewriteCond %{HTTP_REFERER} /merkez\.php [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_URI} ^/oyunekleme\.php$
+RewriteCond %{HTTP_REFERER} /merkez\.php [NC]
+RewriteRule ^ - [L]
