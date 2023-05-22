@@ -34,8 +34,8 @@ include "config.php";
 </head>
 <body>
 <h1 style="text-align: center; color: white;">GamePoints Sistemine Hoşgeldiniz</h1>
-<h3 style="text-align: center; color: white;"><a class="button"href=giris.php>Giriş İçin Tıkla</a></h3>
-<h3 style="text-align: center; color: white;"><a class="button"href=kayit.php>Kayıt için Tıkla</a></h3> 
-<h3 style="text-align: center; color: white;"><a class="button"href=kayit.php>Kayıt için Tıkla</a></h3>   
+<h3 style="text-align: center; color: white;"><a class="button"href=giris.php>Giriş</a></h3>
+<h3 style="text-align: center; color: white;"><a class="button"href=kayit.php>Kayıt OL</a></h3> 
+<h3 style="text-align: center; color: white;"><a class="button"href=https://github.com/Aytacus/PHP-MYSQL--Veri-Taban---Oyun-Puanlama-Men-s-.git>Github LİNKİ</a></h3>   
 </body>
 </html>
