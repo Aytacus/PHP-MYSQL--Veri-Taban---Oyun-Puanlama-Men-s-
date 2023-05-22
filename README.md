@@ -13,6 +13,7 @@ http://gamepoints.epizy.com/?i=1<br>
 10-) XAAMP'ın Apache'sinden Admin seçeneğine basın.<br>
 11-) Program karşınızda çalışıyor olacak.<br>
 NOT: MOBİLE UYUMLU DEĞİLDİR!!!<br>
+Eğer kayıt olmak istemiyorsanız: kullanıcı adı:ayt Şifre:aytayt123 ' ü kullanabilirsiniz. <br>
 Uygulama Videosu için: https://youtu.be/OvVU0BrLnZU <br>
 XAAMP'ta açabilmek için: https://youtu.be/5rBb6QTO_7Y <br>
 ![resim](https://github.com/Aytacus/PHP-MYSQL--Veri-Taban---Oyun-Puanlama-Men-s-/assets/92356087/62807d6d-a0a6-47a0-aa1e-05594e0d8d3c)
