@@ -11,6 +11,7 @@ if(isset($_POST["oyunismi"])){
 $query=mysqli_query($db,"INSERT INTO `oyunlardb` (`oyunismidb`, `oyuncikistarihidb`, `oyunpuani`,`sayac`,`ortalama_puan`) VALUES ('".$formoyunismi."', '".$formoyuncikistarihi."', '".$formoyunpuani."', '".$formsayac."', '".$formoyunortpuani."')");
     if(mysqli_errno($db)!=0){
         echo "Bir hata meydana geldi!";
+        echo "<a href='merkez.php'> Ana Sayfaya Dön</a>";
         exit();
     }
     echo "Oyun Eklendi<br>";
