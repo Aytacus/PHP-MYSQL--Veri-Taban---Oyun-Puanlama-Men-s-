@@ -15,7 +15,8 @@
 <body>
 <form action="oyunsil.php"  method="POST">
     Oyunun ID: <input type="text" name="oyunID"><br>
-    <input type="submit" value="Oyunu Listeden Kaldır!">
+    <input type="submit" value="Oyunu Listeden Kaldır!"><br>
+    Ana sayfaya geçmek için <a href='merkez.php'>tıklayınız</a>
 </form>
 <?php
 include "config.php";
