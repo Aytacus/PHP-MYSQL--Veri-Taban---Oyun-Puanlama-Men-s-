@@ -28,7 +28,7 @@
     $islem=$db->query("INSERT INTO kullanicilardb (kullaniciadidb,kullanicisifredb,epostadb) VALUES ('". $yenikullaniciadi."', '".$yenisifre."','".$yeniemail."')");
 
     if($islem==false){
-        echo ("Kayıt oluşamadı");
+        echo ("Kayıt oluşamadı<br>");
         echo "<a href='index.php'>Giriş sayfasına dön</a>";
     }
     else{
