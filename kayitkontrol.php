@@ -29,6 +29,7 @@
 
     if($islem==false){
         echo ("Kayıt oluşamadı");
+        echo "<a href='index.php'>Giriş sayfasına dön</a>";
     }
     else{
         echo("Kayıt Başarılı<br>");
