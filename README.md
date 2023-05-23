@@ -1,5 +1,5 @@
 # PHP-MYSQL- Veri Tabanı- Oyun Puanlama Menüsü
-http://gamepoints.epizy.com/?i=1<br>
+http://gamepoints.epizy.com <br>
  Merhabalar Eğer bu yazıyı okuyorsanız githup linkime tıklayıp gelmişsiniz demektir. Burada hemen şunu anlatmak istiyorum. Buradaki dosyaları XAAMP üstünde çalıştırmak istiyorsanız yapacaklarınız:<br>
  1-) XAAMP'ı indirin.<br>
  2-) XAAMP'ta Apache ile mysql 'i başlatın.<br>
