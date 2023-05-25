@@ -25,16 +25,20 @@
     $yenikullaniciadi=$_POST["kullaniciadi"];
     $yenisifre=$_POST["kullanicisifre"];
     $yeniemail=$_POST["kullaniciemail"];
+     if(empty($yenikullaniciadi)||empty($yenisifre)||empty($yeniemail)) {
+        echo("Kayıt Başarısız<br>");
+       echo "<a href='index.php'>Giriş sayfasına dön</a>";
+    }else{
     $islem=$db->query("INSERT INTO kullanicilardb (kullaniciadidb,kullanicisifredb,epostadb) VALUES ('". $yenikullaniciadi."', '".$yenisifre."','".$yeniemail."')");
 
     if($islem==false){
         echo ("Kayıt oluşamadı<br>");
         echo "<a href='index.php'>Giriş sayfasına dön</a>";
     }
-    else{
+    else  {
         echo("Kayıt Başarılı<br>");
         echo("Giriş Ekranına gelmek için <a href='giris.php'>Buraya Tıklayın </a>");
-    }
+    }}
     ?>
 </body>
 </html>
